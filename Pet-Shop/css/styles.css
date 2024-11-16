@@ -69,7 +69,7 @@ header .subtxtlogo {
     color: #80b9b1;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1280px) {
 
     .logo p {
 
@@ -129,11 +129,11 @@ header .subtxtlogo {
 
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1280px) {
 
     .servicos {
 
-        width: 400px;
+        width: 350px;
 
     }
 
