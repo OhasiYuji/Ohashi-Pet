@@ -71,13 +71,37 @@ header .subtxtlogo {
 
 @media (max-width: 1024px) {
 
-    .merchan h1 {
+    .logo p {
 
-        font-size: 30px;
+        font-size: 8px;
+        text-align: left;
+
+    }
+
+    .logo span {
+
+        font-size: 12px;
+
+    }
+
+    .merchan h1 {
+        font-size: 15px;
+    }
+
+    .merchan a {
+        font-size: 13px;
+        
+    }
+
+    .merchan img {
+
+        width: 10px;
 
     }
 
 }
+
+
 
 .merchan a {
 
@@ -136,8 +160,7 @@ header .subtxtlogo {
 
 .imagens {
 
-    max-width: 77%;
-    margin: 0 auto;
+    max-width: 100%;
     box-shadow: 3px 6px 10px 6px #0000005c;
 
 }
@@ -177,6 +200,8 @@ header .subtxtlogo {
     width: 100%;
     padding: 60px 20px;
     text-align: center;
+    margin-left: -10px;
+    box-sizing: border-box;
 
 }
 
@@ -206,7 +231,7 @@ header .subtxtlogo {
 
 .localizacao iframe {
 
-    width: 800px;
+    width: 70%;
 
 }
 
