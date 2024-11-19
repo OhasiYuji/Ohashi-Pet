@@ -54,7 +54,7 @@ header .subtxtlogo {
     border-radius: 10px;
     padding: 40px;
     margin: 70px auto 0 auto;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.8);
     box-shadow: 0 8px 32px #1f26875e;
     display: flex;
     flex-direction: column;
@@ -66,7 +66,7 @@ header .subtxtlogo {
 
     text-align: center;
     font-size: 60px;
-    color: #80b9b1;
+    color: #68c0b4;
 }
 
 @media (max-width: 1280px) {
@@ -75,6 +75,14 @@ header .subtxtlogo {
 
         font-size: 8px;
         text-align: left;
+
+    }
+
+    .logo {
+
+        position: relative;
+        right: 50px;
+        top: -20px;
 
     }
 
@@ -123,7 +131,7 @@ header .subtxtlogo {
 
 .servicos {
 
-    max-width:  800px;
+    width:  800px;
     text-align: center;
     margin: 0 auto;
 
@@ -133,11 +141,23 @@ header .subtxtlogo {
 
     .servicos {
 
-        width: 350px;
+        width: 500px;
 
     }
 
 }
+
+@media (max-width: 800px) {
+
+    .servicos {
+
+        width: 300px;
+
+    }
+
+}
+
+
 
 .servicos h2 {
 
